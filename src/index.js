@@ -44,7 +44,7 @@ function getArch() {
 }
 
 async function download(url) {
-  const path = tc.downloadTool(url);
+  const path = await tc.downloadTool(url);
   if (platform === 'linux') {
     return tc.extractTar(path)
   } else {
