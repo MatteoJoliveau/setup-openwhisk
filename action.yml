@@ -8,4 +8,4 @@ inputs:
     description: 'Set the apihost parameter in wsk properties'
 runs:
   using: 'node12'
-  main: 'index.js'
+  main: 'dist/index.js'
