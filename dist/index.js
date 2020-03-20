@@ -4453,7 +4453,7 @@ function getPlatform() {
       return 'mac';
     case 'win32':
       return 'windows';
-    case 'linus':
+    case 'linux':
       return 'linux';
     default:
       throw new Error(`unsupported platform ${osPlat}`)
