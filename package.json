@@ -1,0 +1,15 @@
+{
+  "name": "setup-openwhisk",
+  "version": "0.1.0",
+  "description": "Download the wsk and wskdeploy CLIs and add them to the PATH",
+  "main": "index.js",
+  "repository": "git@github.com:MatteoJoliveau/setup-openwhisk.git",
+  "author": "Matteo Joliveau <matteo.joliveau@mikamai.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "@actions/http-client": "^1.0.6",
+    "@actions/tool-cache": "^1.3.3"
+  }
+}

@@ -1,0 +1,11 @@
+name: 'Setup OpenWhisk and wskdeploy CLIs'
+description: 'Download the wsk and wskdeploy CLIs and add them to the PATH'
+author: 'Matteo Joliveau'
+inputs:
+  ow_auth:
+    description: 'Set the auth parameter in wsk properties'
+  ow_host:
+    description: 'Set the apihost parameter in wsk properties'
+runs:
+  using: 'node12'
+  main: 'index.js'
